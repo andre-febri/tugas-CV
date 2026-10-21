@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: white;
+    color: black;
+    line-height: 1.7;
+    padding: 30px 15px;
+}
+
+.profile {
+    background: green;
+    color: white;
+    padding: 35px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 3px solid yellow;
+}
+
+.profile-info h1 {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.profile-info h3 {
+    color: aquamarine;
+    margin-bottom: 12px;
+}
+
+.profile-info p {
+    color: white;
+}
+
+.content {
+    padding: 30px 35px;
+}
+
+.section {
+    margin-bottom: 25px;
+}
+
+.section h2 {
+    color: darkblue;
+    font-size: 20px;
+    border-bottom: 2px solid blue;
+    padding-bottom: 7px;
+    margin-bottom: 12px;
+}
+
+.details {
+    list-style: none;
+}
+
+.details li {
+    margin-bottom: 6px;
+}
+
+.item {
+    margin-bottom: 15px;
+}
+
+.item h3 {
+    font-size: 16px;
+    color: black;
+}
+
+.item p {
+    color: grey;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills span {
+    background: white;
+    color: blue;
+    padding: 6px 13px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: white;
+    color: grey;
+    font-size: 13px;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    .profile {
+        flex-direction: column;
+        text-align: center;
+        padding: 25px 20px;
+    }
+
+    .profile-photo {
+        width: 130px;
+        height: 155px;
+    }
+
+    .profile-info h1 {
+        font-size: 24px;
+    }
+
+    .content {
+        padding: 25px 20px;
+    }
+}
